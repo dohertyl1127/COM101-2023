@@ -1,8 +1,5 @@
-#count from one up to ten
+import random
 
-name = ""
-while name.lower() != "xxx":
-    name = input("who are you? ")
-    print(name)
-print()
-print("we are done!")
+for item in range(0, 20):
+    number = random.randint(1, 4)
+    print(number)
